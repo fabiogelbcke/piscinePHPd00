@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
     <title>Day of the 42</title>
     <link rel="stylesheet" type="text/css" href="./doft.css">
   </head>
   <body>
     <div class="topbar">
-      <img src="./resources/day_of_the_42.png" style="height:100%; width:auto; border-radius:1vh;">
+      <img src="./resources/day_of_the_42.png" style="height:100%; width:auto; border-radius:1vh;" title="doft">
       <div class="rightimg">
-        <img src="./resources/loupe.png" style="height:16vh; margin-top:1vh;margin-bottom:-5vh;">
-        <a href="www.disney.com">
-          <img src="./resources/reload.png" style="height:3vh; vertical-align:top; margin-top: 1vh; margin-right:-2vw;">
+        <img src="./resources/loupe.png" style="height:16vh; margin-top:1vh;margin-bottom:-5vh;" title="loupe">
+        <a href="http://www.disney.com/">
+          <img src="./resources/reload.png" style="height:3vh; vertical-align:top; margin-top: 1vh; margin-right:-2vw;" title="reload">
         </a>
         <a href="https://www.relaischateaux.com"><img src="./resources/close.gif" style="height:3vh; vertical-align:top; margin-top:11vh; margin-right:0.5vw; margin-bottom:-5vh;"></a>
       </div>
@@ -23,17 +24,24 @@
       <img src="./resources/chat-icon.png" alt="Parler" title="Parler">
     </div>
     <div class="centerdiv">
-      <a href="www.apple.com" style="position:absolute; display:block; width:10%; height:20%; bottom:25vh; right:25vw;"></a>
-      <img src="./resources/cluster.jpg">
+      <a href="http://www.apple.com/" style="position:absolute; display:block; width:10%; height:20%; bottom:25vh; right:25vw;"></a>
+      <img src="./resources/cluster.jpg" title="cluster">
 
-      <a href="www.ikea.com" style="position:absolute; display:block; width:8%; height:25%; bottom:18vh; right:52vw;"></a>
+      <a href="http://www.ikea.com/" style="position:absolute; display:block; width:8%; height:25%; bottom:18vh; right:52vw;"></a>
     </div>
     <div class="rightbar">
-      <img src="./resources/book.png">
-      <img src="./resources/towel.png">
-      <img src="./resources/brick.jpg">
+      <img src="./resources/book.png" title="book">
+      <img src="./resources/towel.png" title="towel">
+      <img src="./resources/brick.jpg" title="brick">
     </div>
     <div class="greenbox">
+      <span class="textspan">Vous <e>entrez</e> alors dans une grande piece remplie</span>
+      <span class="textspan">d'<span class="redshadow">ordinateurs</span>...</span>
+      <p>- Bonjour, vous êtes noveau ici ?</p>
+      <form method="GET">
+        <input type="text" style="width:75%" name="areyounew">
+        <input type="submit" style="border-radius:3px; background-color:white;">
+      </form>
     </div>
   </body>
 </html>
